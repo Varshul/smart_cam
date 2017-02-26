@@ -3,8 +3,8 @@ import requests
 import re
 app = Flask(__name__)
 
-ACCESS_TOKEN = ""
-VERIFY_TOKEN = ""
+ACCESS_TOKEN = "EAAXWG2JZAJusBAKzsSvq30ulFBeyWA6C5kJwvJXueVJg6LjqpyIk5xFVTDbKI7YyY3ZBwQKPwG9k005qfNww8mAJt9G59MZBtpcHN8JiJZAlDYDhTez0RbVCzPP3AEYoZBiZAYaAtgqlPZB3d1cbEim4FgjRoCZCuSEtQIrVKvBZCXgZDZD"
+VERIFY_TOKEN = "secret"
 
 def reply(user_id, msg):
     data = {
